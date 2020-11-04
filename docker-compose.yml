@@ -1,0 +1,8 @@
+version: '3.8'
+services:
+  jumpwebgame:
+    container_name: jumpingdemo
+    image: jumpingdemo:1.0
+    build: .
+    ports:
+      - "8083:80"
